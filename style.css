@@ -148,16 +148,18 @@ img {
   font-size: 1.5rem;
   font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
   line-height: 1;
-  color: var(--text1);
+  color: white;
   text-decoration: none;
   flex: 1 0 100%;
 }
 
 .header__social {
   transition: fill var(--transition);
+  background-color: white;
+  border: none;
 }
 
-.header__social:hover > svg > path {
+.header__social:hover > {
   fill: var(--accent);
 }
 
@@ -191,6 +193,10 @@ img {
 }
 .hero__wrapper {
   padding-bottom: 80px;
+}
+.hero_contact1 {
+  color: white;
+  text-decoration: underline;
 }
 
 .hero__image {
@@ -378,8 +384,7 @@ h1 > span {
 .skills__item {
   text-align: center;
 }
-
-.skills__title {
+.hero_contact .skills__title {
   font-size: 2rem;
   font-size: clamp(2rem, 0.33rem + 7.11vw, 3rem);
   line-height: 1.17;
@@ -428,6 +433,9 @@ h1 > span {
 }
 .projects__wrapper {
   padding-block: 140px;
+}
+#btn1 {
+  color: white;
 }
 
 .projects__grid {
